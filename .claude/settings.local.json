@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git --version)",
+      "Bash(mkdir -p \"/c/Users/Lenovo & Co/.claude/skills\")",
+      "Bash(git clone *)",
+      "Read(//tmp/uiproskill/.claude/**)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}
